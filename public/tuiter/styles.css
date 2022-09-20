@@ -1,0 +1,11 @@
+body {
+    background-color:black;
+    padding-left: 16px;
+    font-family: Calibri;
+}
+.wd-section {
+    border: solid  rgb(47,51,54);
+    border-width: 1px;
+    padding-left: 16px;
+    overflow: auto;
+}
