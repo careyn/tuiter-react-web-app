@@ -1,34 +1,32 @@
+body {
+    overflow-x: hidden;
+}
 input#searchbar {
     border-radius: 50px;
-    background-color: darkgray;
-    color: white;
+    background-color: white;
+    color: lightgray;
+    width:100%;
+    border:1px solid lightgray;
+    background-image: url(../../images/search-solid.svg);
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
 }
-a#gear {
-    color:rgb(29,161,242);
-    padding-left:12px;
-    text-decoration: none; 
-}
-div#seperator {
-    width: 100%;
-    height:5px;
-    background-color:rgb(29,29,29);
-}
-a#selected-hyperlink {
-    color: rgb(29,161,242);
-    font-size: 15px;
-    border-bottom: 3px solid rgb(29,161,242);
+.btn-primary.override-tuit {
+    border-radius: 25px;
+    width: 100%
+ }
+.btn-primary.override-follow {
+    border-radius: 25px;
+    float: right;
+    font-size: 10px;
 }
 .wd-hyperlink {
     color: rgb(110,118,125);
     padding:16px;
     font-size: 15px;
     display:inline-block;
-}
-.wd-section {
-    border: solid  rgb(47,51,54);
-    border-width: 1px;
-    padding-left: 16px;
-    overflow: auto;
 }
 .wd-post-small-top {
     color: rgb(110,118,125);
@@ -41,12 +39,12 @@ a#selected-hyperlink {
     margin: 0 0 10px 0;
 }
 .wd-post-small-d {
-    color: white;
+    color: black;
     font-size: 13px;
     margin:10px 0 0 0;
 }
 .wd-post-title {
-    color: white;
+    color: black;
     font-size: 15px;
     margin:0;
 }
@@ -60,5 +58,23 @@ a#selected-hyperlink {
 .wd-left-adjusted {
     float:left;
 }
-
-
+.wd-section {
+    border: solid  lightgrey;
+    border-width: 1px;
+    padding-left: 16px;
+    overflow: auto;
+}
+.wd-user {
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+}
+.wd-name {
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+.wd-at {
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
