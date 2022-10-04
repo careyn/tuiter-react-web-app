@@ -13,9 +13,6 @@ input#searchbar {
     background-repeat: no-repeat;
     padding-left: 40px;
 }
-.icon-text {
-    display:inline-block !important;
-}
 .btn-primary.override-tuit {
     border-radius: 25px;
     width: 100%
@@ -24,12 +21,6 @@ input#searchbar {
     border-radius: 25px;
     float: right;
     font-size: 10px;
-}
-.wd-hyperlink {
-    color: rgb(110,118,125);
-    padding:16px;
-    font-size: 15px;
-    display:inline-block;
 }
 .wd-post-small-top {
     color: rgb(110,118,125);
@@ -56,15 +47,6 @@ input#searchbar {
     height: 60px;
     width: 60px;
     float:right;
-}
-.wd-left-adjusted {
-    float:left;
-}
-.wd-section {
-    border: solid  lightgrey;
-    border-width: 1px;
-    padding-left: 16px;
-    overflow: auto;
 }
 .wd-user {
     border-radius: 50%;
@@ -105,7 +87,4 @@ input#searchbar {
     position: absolute;
     width: 100%;
     color:white;
-}
-.wd-post {
-    border: 1px solid lightgray;
 }
