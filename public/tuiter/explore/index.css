@@ -13,9 +13,6 @@ input#searchbar {
     background-repeat: no-repeat;
     padding-left: 40px;
 }
-.icon-text {
-    display:inline-block !important;
-}
 .btn-primary.override-tuit {
     border-radius: 25px;
     width: 100%
@@ -24,12 +21,6 @@ input#searchbar {
     border-radius: 25px;
     float: right;
     font-size: 10px;
-}
-.wd-hyperlink {
-    color: rgb(110,118,125);
-    padding:16px;
-    font-size: 15px;
-    display:inline-block;
 }
 .wd-post-small-top {
     color: rgb(110,118,125);
@@ -41,13 +32,11 @@ input#searchbar {
     font-size: 11px;
 }
 .wd-post-small-d {
-    color: black;
     font-size: 13px;
     margin:0 0 0 0;
     font-weight:bold;
 }
 .wd-post-title {
-    color: black;
     font-size: 11px;
     margin:0;
 }
@@ -57,40 +46,17 @@ input#searchbar {
     width: 60px;
     float:right;
 }
-.wd-left-adjusted {
-    float:left;
-}
-.wd-section {
-    border: solid  lightgrey;
-    border-width: 1px;
-    padding-left: 16px;
-    overflow: auto;
-}
 .wd-user {
     border-radius: 50%;
     width:30px;
     height:30px;
 }
 .wd-name {
-    color: black;
     font-size: 10px;
     font-weight: bold;
 }
 .wd-at {
-    color: rgb(110,118,125);
     font-size: 10px;
-}
-.wd-pill {
-    border-bottom:1px solid lightgray !important;
-    border-radius: 1px !important;
-}
-.wd-pill-selected {
-    border-top:1px solid lightgray !important;
-    border-left:1px solid lightgray !important;
-    border-right:1px solid lightgray !important;
-    border-bottom-right-radius: 1px !important;
-    border-bottom-left-radius: 1px !important;
-    color:gray
 }
 .wrapper {
     display: inline-block;
@@ -105,7 +71,4 @@ input#searchbar {
     position: absolute;
     width: 100%;
     color:white;
-}
-.wd-post {
-    border: 1px solid lightgray;
 }
