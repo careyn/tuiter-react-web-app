@@ -4,6 +4,12 @@
     width: 60px;
     float:right;
   }
+.wd-pfp {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    float:right;
+  }
   .wd-tabs li {
     display: inline;
  }
@@ -28,5 +34,9 @@
  
  .wd-bottom-4 {
     bottom: 4px;
+ }
+ .wd-icons {
+   display: flex;
+   justify-content: space-between;
  }
  
