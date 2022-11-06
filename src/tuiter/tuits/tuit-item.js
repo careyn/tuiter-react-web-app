@@ -30,7 +30,7 @@ const TuitItem = ({tuit}) => {
                 Dislikes: {tuit.dislikes || 0}
                 <i onClick={() => updateTuit({
                     ...tuit,
-                    dislikes: tuit.dislikes + 1
+                    dislikes: (tuit.dislikes || 0) + 1
                 })} className="far fa-thumbs-down ms-2"></i>
             </div>
         </div>
