@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_BASE = process.env.REACT_APP_API_BASE || "https://tuiter-node-server-app.herokuapp.com/tuits"
+const API_BASE = process.env.REACT_APP_API_BASE || "https://tuiter-node-server-app.herokuapp.com"
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const createTuit = async (tuit) => {
