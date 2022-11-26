@@ -52,7 +52,7 @@ const templateTuit = {
     [createTuitThunk.fulfilled]:
       (state, { payload }) => {
         state.loading = false
-        state.tuits.unshift({...templateTuit, ...payload})
+        state.tuits.push({...templateTuit, ...payload})
     },
     [updateTuitThunk.fulfilled]:
       (state, { payload }) => {
